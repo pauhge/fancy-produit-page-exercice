@@ -1,0 +1,106 @@
+<html>
+
+<head>
+<link href="style.css" rel="stylesheet" type="text/css" media="all" />
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+</head>
+
+<body>
+	<div id="menu">
+		Menu
+		<a class="menuLink" href="#">Maison</a>
+		<a class="menuLink" href="#">Boutique</a>
+		<a class="menuLink" href="#">Stores</a>
+	</div>
+	<!-- contenu de la page -->
+	<div id="blocPrincipal">
+		<div id="contenu">
+			<img class="grandeImage" src="Image1.png" />
+			<div id="description">
+				<div id="vignette">
+						<img src="Image1.png" />
+				</div>
+				<div id="texte">
+					<b>Description</b>
+					<p>Pure swag.</p>
+					<p>Anvil 100% cotton pre-shunck heavyweight value t-shirt has a regular fit for those who prefer their t-shirts with a bit of room.</p>
+				</div>
+			</div>
+		</div>
+		<!--colonne de droite -->
+		<div id="barre-lateral"> 
+			<div id="premier_bloc" >
+				<div id="texte_premier_bloc_parent">
+					<big class="texte_premier_bloc">Swag T-Shirt</big>
+					<br>
+					<br>
+					<span class="texte_premier_bloc"><big><b>$21 USD</b> </big>USD<br><br></span>
+				</div>
+			<form method="post" action="traitement.php">
+				<span >
+				<small>Option</small>
+				<br />
+		       <select name="taille" id="taille">
+		           <option value="small">Small</option>
+		           <option value="medium">Medium</option>
+		           <option value="large">Large</option>
+		       </select>
+		       </span>
+		       <span id="span_quantite">
+		       <small>Quantité</small>
+		       <br />
+		       	<select name="quantite" id="quantite">
+		           <option value="small">1</option>
+		           <option value="medium">2</option>
+		           <option value="medium">3</option>
+		       </select>
+		   		</span>
+		   		<button id="bouton_ajout" type="button"><b>Add to Cart</b></button>
+		   	</form>
+		   </div>
+		   	<div id="deuxieme-bloc">
+		   		<div>
+		   			<img class="logo inline_bloc" src="Image8.png" /> 
+		   			<div class="inline_bloc">
+			   			<small>Plus de choses venant de</small><br>
+			   			<b>Skreened</b>
+		   			</div>
+		   		</div>
+		   		<div id="trois_images">
+		   			<img class="petite-image" src="Image9.png"/>
+		   			<img class="petite-image" src="Image10.png"/>
+		   			<img class="petite-image" src="Image11.png"/>
+		   		</div>
+
+		   	</div>
+		</div>
+		<div id="footer">
+			<figure class="miniature_figure"><img class="img_figure" src="Image2.png">
+				<p class="figure_legende_ligne1">I'm Fine T-Shirt</p>
+				<p class="figure_gris">$25</p>
+			</figure>
+			<figure class="miniature_figure colonne_2"><img class="img_figure" src="Image3.png">
+				<p class="figure_legende_ligne1">F#ck Definition Tee</p>
+				<p class="figure_gris">$22</p>
+			</figure>
+			<figure class="miniature_figure colonne_3"><img class="img_figure" src="Image4.png">
+				<p class="figure_legende_ligne1">Hotline Bling Ugly Christmas Sweater</p>
+				<p class="figure_gris">$56</p>
+			</figure>
+			<figure class="miniature_figure"><img class="img_figure" src="Image5.png">
+				<p class="figure_legende_ligne1">Ray-Ban Clubmaster Aluminium</p>
+				<p class="figure_gris">$215</p>
+			</figure>
+			<figure class="miniature_figure"><img class="img_figure" src="Image6.png">
+				<p class="figure_legende_ligne1">Black & Black Leather Watch by MV</p>
+				<p class="figure_gris">$95</p>
+			</figure>
+			<figure class="miniature_figure colonne_2"><img class="img_figure" src="Image7.png">
+				<p class="figure_legende_ligne1">Bomber Beechwood Sunglasses</p>
+				<p class="figure_gris">$90</p>
+			</figure>
+		</div>
+	</div>
+<body>
+
+</html>
